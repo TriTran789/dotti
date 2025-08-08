@@ -1,10 +1,11 @@
 import { useRoutes } from "react-router";
+import Home from "./components/Home.tsx";
 
 const App = () => {
   return useRoutes([
     {
       path: "/",
-      element: <div>Home</div>,
+      element: <Home />,
     },
     {
       path: "/about",
